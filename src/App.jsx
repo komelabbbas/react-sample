@@ -1,5 +1,7 @@
 import { InvoiceCreate } from "@crater/react-sdk";
-import "@crater/react-sdk/dist/output.css";
+import "@crater/react-sdk/dist/style.css";
+import './App.css';
+
 function App() {
   return (
     <div>
