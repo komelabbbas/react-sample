@@ -1,4 +1,4 @@
-import { InvoiceCreate } from "@crater/react-sdk";
+import { InvoiceCreate,InvoiceTable } from "@crater/react-sdk";
 import "@crater/react-sdk/dist/style.css";
 import './App.css';
 
@@ -8,7 +8,8 @@ function App() {
       <h1 className="text-3xl font-bold underline text-red-500">
         Hello world!
       </h1>
-      <InvoiceCreate />
+      <InvoiceTable />
+      <InvoiceCreate/>
     </div>
   );
 }
